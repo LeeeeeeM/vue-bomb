@@ -1,0 +1,22 @@
+.list {
+  line-height: 30px;
+  user-select: none;
+}
+.item {
+  display: inline-block;
+  background: #ddd;
+  width: 30px;
+  text-align: center;
+  outline: 1px solid #dfd;
+  cursor: pointer;
+}
+.item:hover {
+  background: #38a067;
+  color: #fff;
+}
+
+.setting {
+  margin-top: 20px;
+}
+
+

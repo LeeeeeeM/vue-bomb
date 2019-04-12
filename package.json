@@ -1,0 +1,43 @@
+{
+  "name": "vue-bomb",
+  "version": "1.0.0",
+  "description": "easy bomb",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server --progress=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeeeeeM/vue-bomb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeeeeeM/vue-bomb/issues"
+  },
+  "homepage": "https://github.com/LeeeeeeM/vue-bomb#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "3.0.7",
+    "mini-css-extract-plugin": "^0.6.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "vue-template-loader": "^1.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
